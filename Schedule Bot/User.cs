@@ -7,5 +7,6 @@
         public string Password { get; set; } = string.Empty;
         public string FileId { get; set; } = string.Empty;
         public bool IsReloginInProgress { get; set; }
+        public bool SendSchedule { get; set; }
     }
 }
